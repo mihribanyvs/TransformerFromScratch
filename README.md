@@ -26,6 +26,6 @@ By increasing the complexity of the transformer the data can have more complex p
 
 
 
-University of Padova 
-Laboratory of Computational Physics Project
+University of Padova \
+Laboratory of Computational Physics Project \
 Supervisor Prof. Jeff Byers
