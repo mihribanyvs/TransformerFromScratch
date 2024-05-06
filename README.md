@@ -8,7 +8,7 @@ maybe we can start with a (örüntü) and it can try to grasp the idea behind th
 - [ ] Embedding space
 - [ ] Encoding
 - [ ] Attention
-- [ ] Feed-forward neural network
+- [ ] Feed-forward neural network (restricted boltzmann machine)
 - [ ] Add & Norm (?)
 - [ ] Linearization
 - [ ] Softmax
@@ -23,9 +23,7 @@ maybe we can start with a (örüntü) and it can try to grasp the idea behind th
 - [ ] Minimal
 
 ## Training
-The embedding space creation using tokenization can be done via the mapd project. (?)
-Training can be done via a distributed system architecture where the pattern is already known so the data is simulated. \
-By increasing the complexity of the transformer the data can have more complex patterns as well.
+The embedding space creation using tokenization can be done via the mapd project. (?) \
 
 
 
