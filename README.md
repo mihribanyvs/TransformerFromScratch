@@ -19,7 +19,7 @@ maybe we can start with a (örüntü) and it can try to grasp the idea behind th
 
 ## Goals
 - [ ] Interpretability
-- [ ] Stabile results
+- [ ] Stable results
 - [ ] Minimal
 
 ## Training
