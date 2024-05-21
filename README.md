@@ -1,21 +1,16 @@
 # Transformer From Scratch
 
-## starting ideas
-maybe we can start with a (örüntü) and it can try to grasp the idea behind the pattern
+## Data
+Protein sequences and their diheadral angles have gotten from Alphafold predictions.
 
 ## Architecture structures
-- [ ] Encoder decoder ?
-- [ ] Embedding space
+- [ ] Encoder only
+- [ ] Embedding space (Prot Bert initially)
 - [ ] Encoding
-- [ ] Attention
-- [ ] Feed-forward neural network (restricted boltzmann machine)
+- [ ] Attention (single head, self, unmasked)
+- [ ] Feed-forward neural network
 - [ ] Add & Norm (?)
 - [ ] Linearization
-- [ ] Softmax
-
-## Architecture design
-
-## 
 
 ## Goals
 - [ ] Interpretability
@@ -23,6 +18,7 @@ maybe we can start with a (örüntü) and it can try to grasp the idea behind th
 - [ ] Minimal
 
 ## Training
+Data manipulation and processing.
 The embedding space creation using tokenization can be done via the mapd project. (?) \
 
 
