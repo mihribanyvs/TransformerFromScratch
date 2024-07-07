@@ -11,6 +11,9 @@ Masking done for not learning the padding. Max length of sequence 128.
 - Feed-forward neural network (2 hidden layers lowering dimensions to 2, layer normalizzation removed because of this)
 - Only one layer normalization
 
+- [ ] Code cleaning
+- [ ] Code documentation
+
 ## Presentation
 
 ### Introduction/Background
