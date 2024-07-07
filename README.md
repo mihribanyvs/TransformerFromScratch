@@ -11,8 +11,32 @@ Masking done for not learning the padding. Max length of sequence 128.
 - Feed-forward neural network (2 hidden layers lowering dimensions to 2, layer normalizzation removed because of this)
 - Only one layer normalization
 
-## Training
+## Presentation
 
+### Introduction/Background
+- [ ] Problem explanation (alphafold, CASP)
+- [ ] Protein structure explanation (folding procedure)
+- [ ] Our data (pisces, alphafold predictions)
+
+### Technical Approach 
+- [ ] Angles
+- [ ] Preparation of data
+- [ ] Prot-bert (bert,T5)
+- [ ] Transformer architecture/components
+- [ ] Custom loss
+- [ ] Masking
+  
+### Results
+- [ ] Predictions
+- [ ] Attention weights
+- [ ] NN weights
+  
+### Conclusions
+- [ ]
+- [ ]
+- [ ]
+
+### References
 
 
 
