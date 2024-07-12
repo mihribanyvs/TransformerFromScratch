@@ -42,6 +42,13 @@ Masking done for not learning the padding. Max length of sequence 128.
 ### References
 
 
+## Code structure
+
+- data_processing: Extracting sequence and angles (clean the code make it more pretty)
+- transformer: a file containing only the transformer (clean code maybe name the transformer ?)
+- trainer: loading data, loading model and training
+- evaluation: only for visualization and evaluation
+- training files can be added to github maybe
 
 
 
