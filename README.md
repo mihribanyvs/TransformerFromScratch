@@ -8,7 +8,7 @@ Masking done for not learning the padding. Max length of sequence 128.
 - Encoder only
 - Embedding space (Prot Bert )
 - Attention (single head, self, unmasked)
-- Feed-forward neural network (2 hidden layers lowering dimensions to 2, layer normalizzation removed because of this)
+- Feed-forward neural network (2 hidden layers lowering dimensions to 2, layer normalization removed because of this)
 - Only one layer normalization
 
 - [ ] Code cleaning
@@ -16,27 +16,28 @@ Masking done for not learning the padding. Max length of sequence 128.
 
 ## Presentation
 
-### Introduction/Background
+### Introduction/Background (sandra - mihriban)
 - [ ] Problem explanation (alphafold, CASP)
 - [ ] Protein structure explanation (folding procedure)
 - [ ] Our data (pisces, alphafold predictions)
 
 ### Technical Approach 
 - [ ] Angles
-- [ ] Preparation of data
-- [ ] Prot-bert (bert,T5)
-- [ ] Transformer architecture/components
-- [ ] Custom loss
-- [ ] Masking
+- [ ] Preparation of data (mihriban)
+- [ ] Prot-bert (bert,T5) (mihriban)
+- [ ] Transformer architecture/components (mandana)
+- [ ] Custom loss (maryam)
+- [ ] Masking (mandana)
   
 ### Results
-- [ ] Predictions
-- [ ] Attention weights
-- [ ] NN weights
+- [ ] Predictions (sandra - mihriban)
+- [ ] Attention weights (before-after training) (mihriban)
+- [ ] NN weights (before-after training) (mihriban)
+- [ ] Ramachandran
   
 ### Conclusions
-- [ ]
-- [ ]
+- [ ] Comparison with other articles
+- [ ] Alphafold (comparison)
 - [ ]
 
 ### References
