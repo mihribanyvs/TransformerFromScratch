@@ -22,7 +22,7 @@ Masking done for not learning the padding. Max length of sequence 128.
 - [ ] Our data (pisces, alphafold predictions)
 
 ### Technical Approach 
-- [ ] Angles
+- [ ] Angles (mihriban)
 - [ ] Preparation of data (mihriban)
 - [ ] Prot-bert (bert,T5) (mihriban)
 - [ ] Transformer architecture/components (mandana)
