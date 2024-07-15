@@ -66,10 +66,10 @@ class AngularLoss(nn.Module):
 
         #Finding the thorus distance of prediction and angle values
         difference_phi = torch.abs(predicted_angles_phi - angles_tensor_phi)*mask
-        loss_phi = torch.mean(torch.min(difference_phi, 2 * torch.pi - difference_phi)) / mask.sum()
+        loss_phi = torch.sum(torch.min(difference_phi, 2 * torch.pi - difference_phi)) / mask.sum()
 
         difference_psi = torch.abs(predicted_angles_psi - angles_tensor_psi)*mask
-        loss_psi = torch.mean(torch.min(difference_psi, 2 * torch.pi - difference_psi))/ mask.sum()
+        loss_psi = torch.sum(torch.min(difference_psi, 2 * torch.pi - difference_psi))/ mask.sum()
 
         loss = loss_phi + loss_psi
         return loss
