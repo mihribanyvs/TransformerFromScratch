@@ -25,16 +25,19 @@ class SelfAttention(nn.Module):
         Q = torch.matmul(embeddings, self.w_q)
         K = torch.matmul(embeddings, self.w_k)
         V = torch.matmul(embeddings, self.w_v)
+        #Creating the attention mask
+       
 
         #Attention score calculation
         scores = torch.matmul(Q, K.transpose(-1, -2)) / np.sqrt(K.size(-1))
-        #Masking for the padded values
-        scores = scores.masked_fill(mask == 0, float('-inf'))
-
+        mask = mask.masked_fill(mask == 0, float('-inf'))
+        scores = scores + mask.T
+        #scores = scores.masked_fill(mask == 0, float('-inf'))
+        
         #Attention calculation
         attn = torch.softmax(scores, dim=-1)
         attention_output = torch.matmul(attn, V)
-
+        
         return attention_output
 
 
